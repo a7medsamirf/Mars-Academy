@@ -1,5 +1,5 @@
 /*
-Template Name: eCourses | Personal Portfolio HTML5 Template
+Template Name: Mars Academy | professional  Bootstrap 4 Template
 Author: Ahmed Samir
 Author URI: https://www.facebook.com/a7med.samir.f
 Description: eCourses | Personal Portfolio HTML5 Template
@@ -91,7 +91,7 @@ p {
   list-style: none;
   background-color: #f6f6f6;
   border-radius: 0.25rem;
-  margin-top: 130px;
+  margin-top: 160px;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
@@ -135,6 +135,17 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.btn-outline-warning {
+  color: #ef4826;
+  border-color: #ef4826;
+}
+
+.btn-outline-warning:hover {
+  color: #fff !important;
+  background-color: #ef4826;
+  border-color: #ef4826;
 }
 
 /*--------------------------------------------------
@@ -382,8 +393,7 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: #374752;
 }
 
-.top-header a
-{
+.top-header a {
   color: #fff;
 }
 
@@ -472,7 +482,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #374752;
+  color: #fff;
 }
 
 .navbar-light .navbar-nav .show>.nav-link,
@@ -562,6 +572,32 @@ input[type=number]::-webkit-outer-spin-button {
   left: 20px;
   z-index: -11;
 }
+
+.navbar img.img-fluid.logo {
+  width: 140px;
+}
+
+.navbar .nav-item.lang a {
+  padding: 5px 22px;
+  color: #fff !important;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  display: block;
+  transform: scale(0);
+  transition: ease-out 0.3s;
+}
+
+.dropdown:hover .dropdown-menu {
+  transform: scale(1);
+
+}
+
+
+
 /*--------------------------------------------------
 [7. Start sidebarNavigation ]
 --------------------------------------------------*/
@@ -642,6 +678,10 @@ input[type=number]::-webkit-outer-spin-button {
 .search .btn-outline-warning {
   color: #ef4826;
   border-color: #ef4826;
+}
+
+.home-nav .navbar-light .navbar-nav .nav-link {
+  color: #374752;
 }
 
 .search .btn-outline-warning:hover {
@@ -1238,7 +1278,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 /*--------------------------------------------------
-[18. Start login Page ]
+[18. Start   Page ]
 --------------------------------------------------*/
 
 #login-page {
@@ -1254,28 +1294,28 @@ input[type=number]::-webkit-outer-spin-button {
   font-weight: bold
 }
 
-#login-page .Login-social .social-networks .btn {
+#login-page .تسجيل الدخول -social .social-networks .btn {
   position: relative;
 }
 
-#login-page .Login-social .social-networks .facebook {
+#login-page .تسجيل الدخول -social .social-networks .facebook {
   background-color: #3b5998;
 
 }
 
-#login-page .Login-social .social-networks .twitter {
+#login-page .تسجيل الدخول -social .social-networks .twitter {
   background-color: #55acee
 }
 
-#login-page .Login-social .social-networks .google {
+#login-page .تسجيل الدخول -social .social-networks .google {
   background-color: #dc4e41
 }
 
-#login-page .Login-social .social-networks .linkedin {
+#login-page .تسجيل الدخول -social .social-networks .linkedin {
   background-color: #0077b5
 }
 
-#login-page .Login-social .social-networks i {
+#login-page .تسجيل الدخول -social .social-networks i {
   position: absolute;
   left: 100px;
   line-height: 1.6;
@@ -1298,7 +1338,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 /*--------------------------------------------------
-[19. Start register page ]
+[19. Start تسجيل page ]
 --------------------------------------------------*/
 
 #register-page {
@@ -1314,34 +1354,34 @@ input[type=number]::-webkit-outer-spin-button {
   font-weight: bold
 }
 
-#register-page .Login-social .social-networks .btn {
+#register-page .تسجيل الدخول -social .social-networks .btn {
   position: relative;
 }
 
-#register-page .Login-social .social-networks .facebook {
+#register-page .تسجيل الدخول -social .social-networks .facebook {
   background-color: #3b5998;
 
 }
 
-#register-page .Login-social .social-networks .twitter {
+#register-page .تسجيل الدخول -social .social-networks .twitter {
   background-color: #55acee
 }
 
-#register-page .Login-social .social-networks .google {
+#register-page .تسجيل الدخول -social .social-networks .google {
   background-color: #dc4e41
 }
 
-#register-page .Login-social .social-networks .linkedin {
+#register-page .تسجيل الدخول -social .social-networks .linkedin {
   background-color: #0077b5
 }
 
-#register-page .Login-social .social-networks i {
+#register-page .تسجيل الدخول -social .social-networks i {
   position: absolute;
   left: 100px;
   line-height: 1.6;
 }
 
-.register .form-control {
+.تسجيل .form-control {
   display: block;
   width: 100%;
   height: calc(2.9rem + 2px);
@@ -1414,7 +1454,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 #pricing-table .card-body {
   background-color: #ef4826;
-  color: #272b2b
+  color: #fff
 }
 
 #pricing-table .list-group-item {
@@ -2194,6 +2234,10 @@ figure.img-box:hover img {
   color: #ef4826
 }
 
+#footer img.img-fluid {
+  width: 170px;
+}
+
 #footer .heading .line {
   position: absolute;
   border-bottom: 2px solid #ef4826;
@@ -2260,13 +2304,13 @@ figure.img-box:hover img {
 @media only screen and (max-width: 990px) {
 
   /* ----- NAV -----  */
-  .top-header .user-login .register,
-  .top-header .user-login .login,
-  .top-header .user-login .instructor {
+  .top-header .user-تسجيل الدخول .تسجيل,
+  .top-header .user-تسجيل الدخول .تسجيل الدخول,
+  .top-header .user-تسجيل الدخول .instructor {
     padding: 0;
   }
 
-  .top-header .user-login {
+  .top-header .user-تسجيل الدخول {
     margin-left: 0 !important;
   }
 
@@ -2309,6 +2353,29 @@ figure.img-box:hover img {
     padding: 20vh 0;
   }
 
+  .navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: none;
+    transform: scale(0);
+    transition: ease-out 0.3s;
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition: ease-out 0.3s;
+    -ms-transition: ease-out 0.3s;
+    -o-transition: ease-out 0.3s;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    transform: scale(1);
+    display: block;
+    transition: ease-out 0.3s;
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition: ease-out 0.3s;
+    -ms-transition: ease-out 0.3s;
+    -o-transition: ease-out 0.3s;
+  }
+
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -2328,8 +2395,8 @@ figure.img-box:hover img {
   }
 
   .top-header .call-info,
-  .top-header .user-login .top-header .call-info i,
-  .top-header .user-login i {
+  .top-header .user-تسجيل الدخول .top-header .call-info i,
+  .top-header .user-تسجيل الدخول i {
     padding: 0;
   }
 
@@ -2433,10 +2500,4 @@ figure.img-box:hover img {
 .loader span:nth-child(7) {
   -webkit-animation-delay: 0.90s;
   animation-delay: 0.90s;
-}
-
-
-
-img.img-fluid.logo {
-  width: 140px;
 }

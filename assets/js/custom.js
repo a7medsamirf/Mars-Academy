@@ -1,6 +1,6 @@
 /*************************************
 
-Template Name: eCourses | Personal Portfolio HTML5 Template
+Template Name: Mars Academy | professional  Bootstrap 4 Template
 Author: Ahmed Samir
 Author URI: https://www.facebook.com/a7med.samir.f
 Description: eCourses | Personal Portfolio HTML5 Template
