@@ -1,8 +1,8 @@
-# eCourses Template Version: 1.0
+# Mars Academy Template Version: 1.0
 ## Depends on  Bootstrap Library
 This Template For Freelancers To Define Themselves And Display Their Works.
 
-Review : [eCourses Demo](https://a7medsamirf.github.io/eCourses/)
+Review : [Mars Demo](https://a7medsamirf.github.io/Mars-Academy/)
 
 ## Content:
 1. CSS Foder
