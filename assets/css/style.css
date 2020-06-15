@@ -2376,6 +2376,10 @@ figure.img-box:hover img {
     -o-transition: ease-out 0.3s;
   }
 
+  .sideMenu ul {
+    margin: 0;
+    padding: 0px;
+  }
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -2395,10 +2399,11 @@ figure.img-box:hover img {
   }
 
   .top-header .call-info,
-  .top-header .user-تسجيل الدخول .top-header .call-info i,
-  .top-header .user-تسجيل الدخول i {
-    padding: 0;
+  .top-header .user-login .top-header .call-info i,
+  .top-header .user-login i {
+    padding: 0px;
   }
+
 
 }
 
