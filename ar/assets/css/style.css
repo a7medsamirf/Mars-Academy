@@ -1321,7 +1321,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 #login-page .Login-social .social-networks i {
   position: absolute;
-  left: 100px;
+  right: 100px;
   line-height: 1.6;
 }
 
@@ -1382,7 +1382,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 #register-page .Login-social .social-networks i {
   position: absolute;
-  left: 100px;
+  right: 100px;
   line-height: 1.6;
 }
 
