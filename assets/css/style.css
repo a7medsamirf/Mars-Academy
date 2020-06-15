@@ -1294,28 +1294,29 @@ input[type=number]::-webkit-outer-spin-button {
   font-weight: bold
 }
 
-#login-page .تسجيل الدخول -social .social-networks .btn {
+#login-page .Login-social .social-networks .btn {
   position: relative;
 }
 
-#login-page .تسجيل الدخول -social .social-networks .facebook {
+#login-page .Login-social .social-networks .facebook {
   background-color: #3b5998;
 
 }
 
-#login-page .تسجيل الدخول -social .social-networks .twitter {
+#login-page .Login-social .social-networks .twitter {
   background-color: #55acee
 }
 
-#login-page .تسجيل الدخول -social .social-networks .google {
+#login-page .Login-social .social-networks .google {
   background-color: #dc4e41
 }
 
-#login-page .تسجيل الدخول -social .social-networks .linkedin {
+#login-page .Login-social .social-networks .linkedin {
   background-color: #0077b5
 }
 
-#login-page .تسجيل الدخول -social .social-networks i {
+
+#login-page .Login-social .social-networks i {
   position: absolute;
   left: 100px;
   line-height: 1.6;
@@ -1338,7 +1339,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 /*--------------------------------------------------
-[19. Start تسجيل page ]
+[19. Start register page ]
 --------------------------------------------------*/
 
 #register-page {
@@ -1354,34 +1355,35 @@ input[type=number]::-webkit-outer-spin-button {
   font-weight: bold
 }
 
-#register-page .تسجيل الدخول -social .social-networks .btn {
+#register-page .Login-social .social-networks .btn {
   position: relative;
 }
 
-#register-page .تسجيل الدخول -social .social-networks .facebook {
+#register-page .Login-social .social-networks .facebook {
   background-color: #3b5998;
 
 }
 
-#register-page .تسجيل الدخول -social .social-networks .twitter {
+#register-page .Login-social .social-networks .twitter {
   background-color: #55acee
 }
 
-#register-page .تسجيل الدخول -social .social-networks .google {
+#register-page .Login-social .social-networks .google {
   background-color: #dc4e41
 }
 
-#register-page .تسجيل الدخول -social .social-networks .linkedin {
+#register-page .Login-social .social-networks .linkedin {
   background-color: #0077b5
 }
 
-#register-page .تسجيل الدخول -social .social-networks i {
+
+#register-page .Login-social .social-networks i {
   position: absolute;
   left: 100px;
   line-height: 1.6;
 }
 
-.تسجيل .form-control {
+.register .form-control {
   display: block;
   width: 100%;
   height: calc(2.9rem + 2px);
@@ -2304,13 +2306,13 @@ figure.img-box:hover img {
 @media only screen and (max-width: 990px) {
 
   /* ----- NAV -----  */
-  .top-header .user-تسجيل الدخول .تسجيل,
-  .top-header .user-تسجيل الدخول .تسجيل الدخول,
-  .top-header .user-تسجيل الدخول .instructor {
+  .top-header .user-login .register,
+  .top-header .user-login .login,
+  .top-header .user-login .instructor {
     padding: 0;
   }
 
-  .top-header .user-تسجيل الدخول {
+  .top-header .user-login {
     margin-left: 0 !important;
   }
 
