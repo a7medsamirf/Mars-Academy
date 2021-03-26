@@ -35,16 +35,6 @@ $(document).ready(function () {
 /* ==================================
       Start niceScroll
 ===================================== */
-$(document).ready(function () {
-  $("html").niceScroll({
-    scrollspeed: "100",
-    cursorcolor: "#ef4826",
-    cursorborder: "3px solid #ef4826",
-    cursorborderradius: 0,
-    sensitiverail: false,
-    horizrailenabled: false,
-  });
-});
 
 /* ==================================
       Start dropdown
